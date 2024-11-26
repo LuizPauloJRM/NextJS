@@ -37,7 +37,7 @@ function IntroSection() {
         {/* Botões abaixo do texto */}
         <div className='space-y-4'>
           <a
-            href='/aluno' // Link para a área do aluno
+            href='/aluno' // Link para a página do aluno
             className='bg-primary py-2 px-4 text-md text-white rounded-lg font-bold'
             onClick={() => {
               track('aluno', { location: 'intro' });
@@ -46,7 +46,7 @@ function IntroSection() {
             Alunos
           </a>
           <a
-            href='/professor' // Link para a área do professor
+            href='/professor' // Link para a página do professor
             className='bg-secondary py-2 px-4 text-md text-black rounded-lg font-bold'
             onClick={() => {
               track('professor', { location: 'intro' });
